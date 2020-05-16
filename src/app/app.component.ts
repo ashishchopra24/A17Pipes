@@ -11,25 +11,25 @@ export class AppComponent {
       instanceType: 'medium',
       name: 'Production Server',
       status: 'stable',
-      started: new Date(15, 1, 2017)
+      started: new Date(2015, 1, 17)
     },
     {
       instanceType: 'large',
       name: 'User Database',
       status: 'stable',
-      started: new Date(15, 1, 2017)
+      started: new Date(2020, 1, 7)
     },
     {
       instanceType: 'small',
       name: 'Development Server',
       status: 'offline',
-      started: new Date(15, 1, 2017)
+      started: new Date(2000, 1, 7)
     },
     {
       instanceType: 'small',
       name: 'Testing Environment Server',
       status: 'stable',
-      started: new Date(15, 1, 2017)
+      started: new Date(2015, 10, 20)
     }
   ];
   getStatusClasses(server: {instanceType: string, name: string, status: string, started: Date}) {
